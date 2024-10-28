@@ -1,0 +1,43 @@
+@keyframes slide-in-left {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in {
+    display: inline-block;
+    animation: slide-in-left 2s forwards;
+  }
+
+.Body {
+    
+    padding: 8rem 0.5rem;
+    color: white;
+    font-family: "Poppins", serif;
+  }
+  
+  .Body-section {
+    margin-bottom: 2em;
+    
+  }
+  
+  .Body-title {
+    font-size: 2.5rem;
+    margin: 0em 0em 2em 0em;
+      
+}
+  
+  .Body-text {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+
+  .team-name{
+    font-weight: 500;
+    font-size: 1.1em;
+  }
